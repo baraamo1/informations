@@ -23,7 +23,7 @@ margin: 0;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
-  font-variation-settings:
+  
 }
 #main_txt{
     font-size: 40px;
@@ -33,8 +33,8 @@ margin: 0;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  
+    
 }
 #descrebtion{
     margin: 10px;
@@ -43,7 +43,6 @@ margin: 0;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
-  font-variation-settings:
 }
 #start{
     position: absolute;
@@ -61,5 +60,4 @@ margin: 0;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
-  font-variation-settings:
 }
