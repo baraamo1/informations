@@ -23,3 +23,11 @@ body{
     font-weight: 700;
     font-style: normal;
 }
+#infonumber{
+    font-size: 30px;
+    text-align: center;
+    font-family: "BioRhyme", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
