@@ -1,5 +1,6 @@
 body{
 margin: 0;
+
 }
 #infos_img{
     width: 70px;
@@ -18,4 +19,47 @@ margin: 0;
     border-radius: 10px;
     font-size: 20px;
     cursor: pointer;
+  font-family: "BioRhyme", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+}
+#main_txt{
+    font-size: 40px;
+    margin-top: 20px;
+    text-align: center;
+      font-family: "BioRhyme", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+#descrebtion{
+    margin: 10px;
+    font-size: 30px;
+    font-family: "BioRhyme", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+}
+#start{
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50% , -50%);
+    font-size: 30px;
+    border: 2px solid;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+          font-family: "BioRhyme", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
 }
