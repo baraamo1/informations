@@ -3,8 +3,10 @@ const info_1 = document.getElementById("the_info_1")
 const info_2 = document.getElementById("the_info_2")
 let infonumber = document.getElementById("infonumber")
 let info
-let info_number = 0
-let numbers = 1
+let numbers = 0
+let backk = document.getElementById("back")
+let nextt = document.getElementById("next")
+
 let info_list = [
     "The Gulf of Mexico is the largest gulf in the world",
     "The Danube is the longest reiver in the world",
@@ -110,21 +112,27 @@ let info_list = [
 
 ]
 
-let sure = []
-let rand = Math.floor(
-    Math.random()*100
-)
 
 
 
- info_1.textContent = info_list[rand]
+
 
 function back() {
-        info_number --
+numbers --
 
 
-     info_1.textContent = info_list[info_number - 1]
-    infonumber.textContent = `Info number ${numbers - 1}`;
+    info_1.textContent = info_list[numbers];
+    
+
+    infonumber.textContent = `Info number ${numbers}`;
+    
+
+if (numbers < 2) {
+backk.style.display = "none"
+}
+if(numbers < 100){
+    nextt.style.display = "block"
+}
   
 }
 
@@ -133,22 +141,18 @@ function back() {
 
 
 function next() {
-            info_number ++
-        numbers++;
+numbers ++
 
-    do {
-        rand = Math.floor(
-    Math.random()*100
-)
-    }while(sure.includes(rand)){
-        sure[info_number] = rand
-    infonumber.textContent = `Info number ${numbers}`;
-    info_1.textContent = info_list[rand];
-    }
+    info_1.textContent = info_list[numbers];
+        infonumber.textContent = `Info number ${numbers}`;
 
+if (numbers > 1) {
+backk.style.display = "block"
+}
 
-
-
+if (numbers > 98) {
+nextt.style.display = "none"
+}
 
   
 }

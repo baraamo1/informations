@@ -51,6 +51,7 @@ body{
     border: solid ;
     border-radius: 15px;
     cursor:pointer;
+    display: none;
 }
 #buttons{
     display: flex;
