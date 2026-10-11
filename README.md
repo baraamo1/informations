@@ -11,7 +11,11 @@ i used AI on collecting some informations and onle 5 lines of code
 - a book
 ## how to use it
 1 open the website
-2
+2 click start 
+3 start learn from the information
+## why i did this project
+- to practice js, html, css
+- to give people infos by good way 
 ## screen shoots
 <img width="1366" height="768" alt="Screenshot (80)" src="https://github.com/user-attachments/assets/22f70038-3384-4d21-b022-51dd514d2e07" />
 
