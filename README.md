@@ -7,7 +7,11 @@
 ## AI used
 i used AI on collecting some informations and onle 5 lines of code
 ## informatios resources 
-Ai and book
+- Ai
+- a book
+## how to use it
+1 open the website
+2
 ## screen shoots
 <img width="1366" height="768" alt="Screenshot (80)" src="https://github.com/user-attachments/assets/22f70038-3384-4d21-b022-51dd514d2e07" />
 
