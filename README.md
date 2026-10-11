@@ -1,5 +1,5 @@
 # informations
-## this is a website that give you 100 informations 
+## this is a website that make you learn up to 100 information !!!! 
 ## used languages 
 - HTML
 - CSS
